@@ -51,7 +51,7 @@ class CourseStatus extends Component
             $this->current->users()->detach(auth()->user()->id);
         }else{
             //Agregar registro
-            $this->current->users()->attach(auth()->user()->id);
+            // $this->current->users()->attach(auth()->user()->id);
         }
         
         $this->current = Lesson::find($this->current->id);

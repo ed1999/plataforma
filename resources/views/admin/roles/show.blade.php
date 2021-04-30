@@ -3,7 +3,7 @@
 @section('title', 'Curso Onlyne EASY')
 
 @section('content_header')
-    <h1>Lista de Usuarios</h1>
+    <h1>Curso Online ESASY</h1>
 @stop
 
 @section('content')
